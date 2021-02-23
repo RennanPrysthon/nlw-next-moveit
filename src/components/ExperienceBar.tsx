@@ -8,9 +8,7 @@ const ExperienceBar: React.FC = () => {
       <div >
         <div style={{ width: '50%' }} />
         
-        <span className="ball" style={{ left: '50%' }}>
-          
-        </span>
+        <span className={styles.ball} style={{ left: '50%' }}></span>
 
         <span style={{ left: '50%' }}>
           300 XP
