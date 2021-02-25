@@ -5,6 +5,7 @@
 
 .experienceBar span {
   font-size: 1rem;
+  transition: .6s;
 }
 
 .experienceBar > div {
@@ -20,6 +21,7 @@
   height: 4px;
   border-radius: 4px;
   background: var(--green);
+  transition: .6s;
 }
 
 .ball {
