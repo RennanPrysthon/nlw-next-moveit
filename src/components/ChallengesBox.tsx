@@ -9,13 +9,13 @@ const ChallengeBox: React.FC = () => {
   const { resetCountdown }= useContext(CountdownContext)
 
   function handleChallengeSucceeded() {
-    completeChallenge()
     resetCountdown()
+    completeChallenge()
   }
 
   function handleChallengeFailed() {
-    resetChallenge()
     resetCountdown()
+    resetChallenge()
   }
 
   return (
